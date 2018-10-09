@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 112
+  controlID: 87
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,19 +390,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\\u0423\u0447\u0435\u0431\u0430\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438
-    \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\BackToReffLocal"
+    \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\BackToReff\\BackToReffLocal"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c270000
-    m_LastClickedID: 10140
+    m_SelectedIDs: ba270000
+    m_LastClickedID: 10170
     m_ExpandedIDs: 000000009c270000362800008428000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -551,7 +551,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 86fbffff00000000
+    m_ExpandedIDs: da5bffff86fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -602,14 +602,14 @@ MonoBehaviour:
     height: 451
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 26626.730018683338
+  lastFramingTime: 2786.6319367864166
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.2846212, y: -1.4930987, z: -0.046799727}
+    m_Target: {x: 378.6512, y: 129.42165, z: 0}
     speed: 2
-    m_Value: {x: -3.2846212, y: -1.4930987, z: -0.046799727}
+    m_Value: {x: 378.6512, y: 129.42165, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -637,9 +637,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 14.607877
+    m_Target: 509.70737
     speed: 2
-    m_Value: 14.607877
+    m_Value: 509.70737
   m_Ortho:
     m_Target: 1
     speed: 2
