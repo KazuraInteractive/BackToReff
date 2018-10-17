@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="земля.svg"
+   inkscape:export-filename="G:\земля_к.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient841">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop837" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop839" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient841"
+       id="linearGradient843"
+       x1="42.356956"
+       y1="50.630394"
+       x2="42.356956"
+       y2="53.984936"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="161.29971"
+     inkscape:cy="915.63023"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="746"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#684f40;fill-opacity:1;stroke:#423030;stroke-width:0.235;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815"
+       width="20.312483"
+       height="18.708866"
+       x="32.428543"
+       y="50.415371" />
+    <path
+       style="fill:#57cd2d;fill-opacity:1;stroke:none;stroke-width:0.93246812;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 32.428543,50.415371 h 20.283328 v 11.624773 c -2.291306,0.0688 -3.118733,-3.290625 -5.162374,-3.178967 -1.844699,0.100788 -2.669304,3.043076 -5.047871,3.081352 -2.414372,0.03885 -2.992593,-3.05835 -5.206779,-3.117267 -1.87138,-0.04979 -3.053952,3.337137 -4.831177,3.047839 z"
+       id="rect817"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccssscc" />
+    <path
+       style="fill:#33721c;fill-opacity:1;stroke:none;stroke-width:0.93246847;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 32.428882,50.415402 0.03477,11.457699 c 1.777225,0.289298 2.960025,-3.097665 4.831407,-3.047876 2.214188,0.05892 2.792482,3.155972 5.206857,3.117123 2.378569,-0.03828 3.202957,-2.98068 5.047658,-3.081467 2.043643,-0.111657 2.870995,3.247935 5.162304,3.179135 v -2.143538 c -2.291309,0.0688 -3.118661,-3.290792 -5.162304,-3.179135 -1.844701,0.100788 -2.669089,3.04319 -5.047658,3.081467 -2.414375,0.03885 -2.992669,-3.058208 -5.206857,-3.117122 -1.871382,-0.04979 -3.054182,3.337173 -4.831407,3.047875 l -0.02825,-9.314161 z"
+       id="rect817-1"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#423030;stroke-width:0.235;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect815-9"
+       width="20.312483"
+       height="18.708866"
+       x="32.428543"
+       y="50.415371" />
+    <rect
+       style="fill:url(#linearGradient843);fill-opacity:1;stroke:none;stroke-width:0.16873521;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="rect819"
+       width="19.076361"
+       height="5.4122081"
+       x="32.974377"
+       y="51.045219"
+       ry="1.4" />
+  </g>
+</svg>
