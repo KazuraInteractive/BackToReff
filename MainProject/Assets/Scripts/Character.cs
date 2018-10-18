@@ -4,14 +4,14 @@ using System.Collections;
 public class Character : Unit
 {
     [SerializeField]
-    private int lives = 5;
+    private int lives = 3;
 
     public int Lives
     {
         get { return lives; }
         set
         {
-           if (value < 5) lives = value;
+           if (value < 3) lives = value;
             livesBar.Refresh();
         }
     }
@@ -25,6 +25,8 @@ public class Character : Unit
     private bool groundCheck = false;
     public int directionInput;
     public bool facingRight = true;
+
+    public LevelManager levelManager;
 
     private Rigidbody2D rb2d;
 
@@ -52,6 +54,7 @@ public class Character : Unit
             Flip();
         }
         groundCheck = true;
+
     }
 
     public void Run(int dir)
@@ -77,6 +80,13 @@ public class Character : Unit
         rb2d.AddForce(transform.up * 8.0F, ForceMode2D.Impulse);
 
         Debug.Log(lives);
+
+        if (lives <= 0)
+        {
+            levelManager.RespawnPlayer();
+            lives = 3;
+            livesBar.Refresh();
+        }
     }
 
     private void CheckGround()
