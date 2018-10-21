@@ -4,7 +4,7 @@ using System.Collections;
 public class Character : Unit
 {
     [SerializeField]
-    private int lives = 3;
+    public int lives = 3;
 
     public int Lives
     {
@@ -29,6 +29,13 @@ public class Character : Unit
     public LevelManager levelManager;
 
     private Rigidbody2D rb2d;
+
+    public void liveadd()
+    {
+        lives++;
+        livesBar.Refresh();
+        Debug.Log(lives);
+    }
 
     private void Awake()
     {

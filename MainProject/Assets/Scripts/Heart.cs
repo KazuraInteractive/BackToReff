@@ -3,13 +3,13 @@ using System.Collections;
 
 public class Heart : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerEnter2D(Collider2D collider)
     {
         Character character = collider.GetComponent<Character>();
         
         if (character)
         {
-            character.Lives++;
+            character.liveadd();
             Destroy(gameObject);
         }
     }
