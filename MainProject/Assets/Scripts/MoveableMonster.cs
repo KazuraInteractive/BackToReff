@@ -8,6 +8,7 @@ public class MoveableMonster : Monster
     private float speed = 2.0F;
 
     private Vector3 direction;
+    public bool facingRight = true;
 
     protected override void Start()
     {
@@ -34,8 +35,16 @@ public class MoveableMonster : Monster
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position + transform.up * 0.5F + transform.right * direction.x * 0.5F, 0.1F);
 
-        if (colliders.Length > 0 && colliders.All(x => !x.GetComponent<Character>())) direction *= -1.0F;
+        if (colliders.Length > 0 && colliders.All(x => !x.GetComponent<Character>())) { direction *= -1.0F; Flip(); }
         
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }
