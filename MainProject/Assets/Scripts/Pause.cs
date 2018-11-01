@@ -36,17 +36,17 @@ public class Pause : MonoBehaviour {
     {
         if (guipuse == true)
         {
-            if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 150f, 150f, 45f), "Продолжить"))
+            if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 150f, 300f, 100f), "Продолжить"))
             {
                 ispuse = false;
                 timer = 0;
                 panel.SetActive(false);
             }
-            if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2), 150f, 45f), "В Меню"))
+            if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2), 300f, 100f), "В Меню"))
             {
                 ispuse = false;
                 timer = 0;
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(0);
             }
         }
     }
