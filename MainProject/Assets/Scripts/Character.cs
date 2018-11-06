@@ -84,7 +84,7 @@ public class Character : Unit
         Lives--;
 
         rb2d.velocity = Vector3.zero;
-        rb2d.AddForce(transform.up * 8.0F, ForceMode2D.Impulse);
+        rb2d.AddForce(transform.up * 10.0F, ForceMode2D.Impulse);
 
         Debug.Log(lives);
 

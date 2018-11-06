@@ -153,3 +153,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Heart
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 4b839b949b32a8fd656646d36d34f1a9 Assembly-CSharp.dll:.CameraController
+dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.Bird
