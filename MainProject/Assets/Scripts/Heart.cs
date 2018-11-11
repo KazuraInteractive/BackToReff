@@ -7,7 +7,7 @@ public class Heart : MonoBehaviour
     {
         Character character = collider.GetComponent<Character>();
         
-        if (character)
+        if (character && character.lives<3)
         {
             character.liveadd();
             Destroy(gameObject);
