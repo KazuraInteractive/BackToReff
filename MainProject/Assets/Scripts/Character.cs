@@ -6,6 +6,8 @@ public class Character : Unit
     [SerializeField]
     public int lives = 3;
 
+    public AudioSource uro,jump;
+
     public int Lives
     {
         get { return lives; }
@@ -76,12 +78,14 @@ public class Character : Unit
         if (groundCheck)
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpPower);
+            jump.Play();
         }
     }
 
     public override void ReceiveDamage()
     {
         Lives--;
+        uro.Play();
 
         rb2d.velocity = Vector3.zero;
         rb2d.AddForce(transform.up * 10.0F, ForceMode2D.Impulse);
