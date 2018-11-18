@@ -32,22 +32,23 @@ public class Pause : MonoBehaviour {
 
         }
     }
-    public void OnGUI()
+    public void Continue()
     {
         if (guipuse == true)
         {
-            if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 150f, 300f, 100f), "Продолжить"))
-            {
-                ispuse = false;
-                timer = 0;
-                panel.SetActive(false);
-            }
-            if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2), 300f, 100f), "В Меню"))
-            {
-                ispuse = false;
-                timer = 0;
-                SceneManager.LoadScene(0);
-            }
+            ispuse = false;
+            timer = 0;
+            panel.SetActive(false);
+        }
+    }
+    public void Exit()
+    {
+        if (guipuse == true)
+        {
+            ispuse = false;
+            timer = 0;
+            SceneManager.LoadScene(0);
         }
     }
 }
+
