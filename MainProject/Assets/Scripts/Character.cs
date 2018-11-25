@@ -6,7 +6,8 @@ public class Character : Unit
     [SerializeField]
     public int lives = 3;
 
-    public AudioSource uro,jump;
+    [SerializeField]
+    public AudioSource uro,jump, death;
 
     public int Lives
     {
@@ -94,6 +95,7 @@ public class Character : Unit
 
         if (lives <= 0)
         {
+            death.Play();
             levelManager.RespawnPlayer();
             lives = 3;
             livesBar.Refresh();
