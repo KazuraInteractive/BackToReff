@@ -7,7 +7,12 @@ public class MenuControls : MonoBehaviour {
 
     public void PlayPressed()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level1");
+    }
+
+    public void PlayPressed2()
+    {
+        SceneManager.LoadScene("Level2");
     }
 
     public void ExitPressed()
