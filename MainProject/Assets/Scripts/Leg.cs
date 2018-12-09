@@ -10,6 +10,7 @@ public class Leg : Monster
     private float speed = -2.0F;
 
     Vector3 originalPos;
+    bool puk = false;
 
     [SerializeField]
     public GameObject p;
@@ -29,19 +30,16 @@ public class Leg : Monster
         {
             Move();
 
-            if (v2 > 0)
+            if (p.transform.position.x >= 190 && p.transform.position.x <= 280)
             {
-                v2--;
-                if(p.transform.position.x >= 290 && p.transform.position.x <= 280)
-                {
-                    gameObject.transform.position = new Vector3(p.transform.position.x, gameObject.transform.position.y);
-                }
+                gameObject.transform.position = new Vector3(p.transform.position.x, gameObject.transform.position.y);
             }
 
-            if (v2 <= 0)
+            if (puk == true)
             {
+                gameObject.transform.position = new Vector3(originalPos.x, gameObject.transform.position.y);
                 v1 = 130;
-                v2 = 100;
+                puk = false;
             }
         }
         if (v1 > 0)
@@ -58,7 +56,10 @@ public class Leg : Monster
             {
                 ReceiveDamage();
             }
-            else unit.ReceiveDamage();
+            else
+            {
+                unit.ReceiveDamage();
+            }
         }
     }
 
@@ -67,7 +68,7 @@ public class Leg : Monster
 
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position * 0.39F, 0.1F);
 
-        if (colliders.Length > 0 && colliders.All(y => !y.GetComponent<Character>())) { gameObject.transform.position = originalPos; }
+        if (colliders.Length > 0 && colliders.All(y => !y.GetComponent<Character>())) { puk = true; gameObject.transform.position = originalPos; }
 
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
     }
