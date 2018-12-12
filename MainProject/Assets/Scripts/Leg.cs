@@ -16,7 +16,7 @@ public class Leg : Monster
     public GameObject p;
 
     private Vector3 direction;
-    int v1 = 130, v2=100;
+    int v1 = 130;
 
     protected override void Start()
     {

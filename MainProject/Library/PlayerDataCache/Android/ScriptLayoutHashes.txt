@@ -3,8 +3,11 @@ PlayerPath?
 D:/YandexDisk/test.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
+Assets/Scenes/1Cutscene.unity
 Assets/Scenes/Level1.unity
+Assets/Scenes/2Cutscene.unity
 Assets/Scenes/Level2.unity
+Assets/Scenes/3Cutscene.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
@@ -154,6 +157,7 @@ fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networki
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MenuControls
 72a8523b432c0a5317826b7a9e0a0e79 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
+50a5612819fc8c278291350466a43856 Assembly-CSharp.dll:.CutScenes
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 ddcae71b3f91386237efd012a9eef2be UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 486cd95c82d8305219c352c06b776e1f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -170,7 +174,7 @@ e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTool
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.drop
 4f2463662ae6786e90dbbb4ab09b93f4 Assembly-CSharp.dll:.Checkpoint
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.ChangeLevel
+591faf757f9cac6d6ed6cd9785a73ad8 Assembly-CSharp.dll:.ChangeLevel
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
