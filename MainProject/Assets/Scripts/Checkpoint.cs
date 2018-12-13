@@ -5,11 +5,12 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour {
 
     public LevelManager levelManager;
+    public GameObject grandChild;
 
-	void Start ()
+    void Start ()
     {
         levelManager = FindObjectOfType<LevelManager>();
-	}
+    }
 
 	void Update ()
     {
