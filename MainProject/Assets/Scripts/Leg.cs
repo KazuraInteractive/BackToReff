@@ -30,11 +30,6 @@ public class Leg : Monster
         {
             Move();
 
-            if (p.transform.position.x >= 190 && p.transform.position.x <= 280)
-            {
-                gameObject.transform.position = new Vector3(p.transform.position.x, gameObject.transform.position.y);
-            }
-
             if (puk == true)
             {
                 gameObject.transform.position = new Vector3(originalPos.x, gameObject.transform.position.y);
@@ -65,8 +60,9 @@ public class Leg : Monster
 
     private void Move()
     {
+        Vector3 pik = new Vector3(transform.position.x , transform.position.y - 9);
 
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position * 0.39F, 0.1F);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(pik, 0.1F);
 
         if (colliders.Length > 0 && colliders.All(y => !y.GetComponent<Character>())) { puk = true; gameObject.transform.position = originalPos; }
 
