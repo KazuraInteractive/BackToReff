@@ -8,8 +8,6 @@ public class CutScenes : MonoBehaviour {
 
     [SerializeField]
     public Sprite[] scenes = new Sprite[3];
-    [SerializeField]
-    int sce;
 
     int i = 0;
 
@@ -22,7 +20,7 @@ public class CutScenes : MonoBehaviour {
         }
         else
         {
-            SceneManager.LoadScene(sce);
+            FadeInOut.sceneEnd = true;
         }
     }
 }

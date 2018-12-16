@@ -14,7 +14,7 @@ public class ChangeLevel : MonoBehaviour {
 
         if (unit && unit is Character)
         {
-            SceneManager.LoadScene(sce);
+            FadeInOut.sceneEnd = true;
         }
     }
 }
