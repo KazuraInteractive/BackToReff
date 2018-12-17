@@ -15,7 +15,7 @@
    viewBox="0 0 793.74998 406.66459"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="D:\Нужное\УЧЕБА\4 курс\7 семестр\Техн. программирования (Черноскутов М.Ю.)\Кат-сцены\4 сцена\1 кадр.png"
+   inkscape:export-filename="D:\Документы\Учеба\Технологии программирования\Курсовая\BackToReff\Кат-сцены\4 сцена\1 кадр.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -233,6 +233,13 @@
        id="linearGradient2357"
        xlink:href="#linearGradient2355"
        inkscape:collect="always" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -242,16 +249,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="613.65686"
-     inkscape:cy="876.36482"
+     inkscape:cx="2027.8704"
+     inkscape:cy="674.33431"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
@@ -789,5 +796,21 @@
            r="0.61421132" />
       </g>
     </g>
+    <text
+       id="text135"
+       y="-34.142418"
+       x="39.238304"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:51.83202744px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.51403546"
+       xml:space="preserve"
+       transform="scale(0.92852601,1.0769758)"><tspan
+         id="tspan133"
+         y="-34.142418"
+         x="39.238304"
+         sodipodi:role="line"
+         style="stroke-width:3.51403546"><tspan
+           id="tspan129"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:51.83202744px;font-family:Calibri;fill:#000000;stroke-width:3.51403546"
+           dy="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4.0449114">Так Джеми и Снейк спаслись... </tspan></tspan></text>
   </g>
 </svg>

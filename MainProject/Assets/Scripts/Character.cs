@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Character : Unit
 {
@@ -7,7 +8,7 @@ public class Character : Unit
     public int lives = 3;
 
     [SerializeField]
-    public AudioSource uro,jump, death;
+    public AudioSource uro, jump, death;
 
     public int Lives
     {
@@ -54,6 +55,7 @@ public class Character : Unit
 
     void Update()
     {
+
         if ((directionInput < 0) && (facingRight))
         {
             Flip();

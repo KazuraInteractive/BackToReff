@@ -14,7 +14,10 @@ public class ChangeLevel : MonoBehaviour {
 
         if (unit && unit is Character)
         {
-            FadeInOut.sceneEnd = true;
+            if (FadeInOut.sceneStarting == false)
+            {
+                FadeInOut.sceneEnd = true;
+            }
         }
     }
 }

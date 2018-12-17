@@ -9,9 +9,9 @@ public class FadeInOut : MonoBehaviour
     public static bool sceneEnd;
     public float fadeSpeed = 1.5f;
     [SerializeField]
-    int sce;
+    public int sce;
     private Image _image;
-    public bool sceneStarting;
+    public static bool sceneStarting;
 
     void Awake()
     {
@@ -47,12 +47,7 @@ public class FadeInOut : MonoBehaviour
         if (_image.color.a >= 0.95f)
         {
             _image.color = Color.black;
-            SceneManager.LoadScene(sce);
+            SceneManager.LoadScene(sce, LoadSceneMode.Single);
         }
-    }
-
-    public void edit()
-    {
-        sceneEnd = !sceneEnd;
     }
 }

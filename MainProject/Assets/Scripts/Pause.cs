@@ -47,7 +47,7 @@ public class Pause : MonoBehaviour {
         {
             ispuse = false;
             timer = 0;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(0, LoadSceneMode.Single);
         }
     }
 }

@@ -15,7 +15,7 @@
    viewBox="0 0 793.74998 406.66459"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="D:\Нужное\УЧЕБА\4 курс\7 семестр\Техн. программирования (Черноскутов М.Ю.)\Кат-сцены\2 сцена\4 кадр.png"
+   inkscape:export-filename="D:\Документы\Учеба\Технологии программирования\Курсовая\BackToReff\Кат-сцены\2 сцена\4 кадр.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -82,6 +82,13 @@
        id="linearGradient2357"
        xlink:href="#linearGradient2355"
        inkscape:collect="always" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -91,16 +98,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="1287.2006"
-     inkscape:cy="554.54384"
+     inkscape:cx="1614.49"
+     inkscape:cy="635.35604"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
@@ -128,7 +135,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -316,5 +323,29 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <text
+       id="text60"
+       y="185.56732"
+       x="45.23922"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:28.64421654px;line-height:125%;font-family:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.94198072"
+       xml:space="preserve"
+       transform="scale(0.75155821,1.3305689)"><tspan
+         id="tspan58"
+         y="185.56732"
+         x="45.23922"
+         sodipodi:role="line"
+         style="stroke-width:1.94198072"><tspan
+           id="tspan52"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:28.64421654px;font-family:Calibri;fill:#000000;stroke-width:1.94198072"
+           dy="0"
+           dx="0">И так Джеми продолжил путь со с</tspan><tspan
+           id="tspan54"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:28.64421654px;font-family:Calibri;fill:#000000;stroke-width:1.94198072"
+           dy="0"
+           dx="-2.0561457">воим новым приятелем</tspan><tspan
+           id="tspan56"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:28.64421654px;font-family:Calibri;fill:#000000;stroke-width:1.94198072"
+           dy="0"
+           dx="-1.943107"> </tspan></tspan></text>
   </g>
 </svg>

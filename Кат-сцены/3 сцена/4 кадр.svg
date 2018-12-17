@@ -15,7 +15,7 @@
    viewBox="0 0 793.74998 406.66459"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="D:\Нужное\УЧЕБА\4 курс\7 семестр\Техн. программирования (Черноскутов М.Ю.)\Кат-сцены\3 сцена\4 кадр.png"
+   inkscape:export-filename="D:\Документы\Учеба\Технологии программирования\Курсовая\BackToReff\Кат-сцены\3 сцена\4 кадр.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -140,7 +140,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="1521.3091"
+     inkscape:cx="793.99926"
      inkscape:cy="597.59158"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -148,8 +148,8 @@
      units="px"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1">
@@ -525,5 +525,17 @@
         </g>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:35.14043045px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87851077"
+       x="322.41306"
+       y="190.59402"
+       id="text79"
+       transform="scale(0.72848965,1.3727031)"><tspan
+         sodipodi:role="line"
+         id="tspan77"
+         x="322.41306"
+         y="190.59402"
+         style="stroke-width:0.87851077">Я должен добраться до холодильника...</tspan></text>
   </g>
 </svg>
