@@ -47,7 +47,11 @@ public class Pause : MonoBehaviour {
         {
             ispuse = false;
             timer = 0;
-            SceneManager.LoadScene(0, LoadSceneMode.Single);
+            FadeInOut.sce = 0;
+            if (FadeInOut.sceneStarting == false)
+            {
+                FadeInOut.sceneEnd = true;
+            }
         }
     }
 }

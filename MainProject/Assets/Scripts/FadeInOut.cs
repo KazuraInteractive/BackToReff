@@ -9,14 +9,14 @@ public class FadeInOut : MonoBehaviour
     public static bool sceneEnd;
     public float fadeSpeed = 1.5f;
     [SerializeField]
-    public int sce;
+    public static int sce;
     private Image _image;
     public static bool sceneStarting;
 
     void Awake()
     {
         _image = GetComponent<Image>();
-        _image.enabled = true;
+        _image.enabled = false;
         sceneStarting = true;
         sceneEnd = false;
     }
@@ -29,6 +29,7 @@ public class FadeInOut : MonoBehaviour
 
     void StartScene()
     {
+        _image.enabled = true;
         _image.color = Color.Lerp(_image.color, Color.clear, fadeSpeed * Time.deltaTime);
 
         if (_image.color.a <= 0.01f)
@@ -47,7 +48,7 @@ public class FadeInOut : MonoBehaviour
         if (_image.color.a >= 0.95f)
         {
             _image.color = Color.black;
-            SceneManager.LoadScene(sce, LoadSceneMode.Single);
+            SceneManager.LoadScene(sce);
         }
     }
 }

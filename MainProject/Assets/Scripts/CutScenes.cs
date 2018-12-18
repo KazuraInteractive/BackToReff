@@ -20,6 +20,7 @@ public class CutScenes : MonoBehaviour {
         }
         else
         {
+            FadeInOut.sce = SceneManager.GetActiveScene().buildIndex + 1;
             FadeInOut.sceneEnd = true;
         }
     }

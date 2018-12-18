@@ -14,6 +14,7 @@ public class ChangeLevel : MonoBehaviour {
 
         if (unit && unit is Character)
         {
+            FadeInOut.sce = SceneManager.GetActiveScene().buildIndex+1;
             if (FadeInOut.sceneStarting == false)
             {
                 FadeInOut.sceneEnd = true;

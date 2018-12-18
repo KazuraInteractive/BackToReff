@@ -8,12 +8,16 @@ public class MenuControls : MonoBehaviour {
 
     public void PlayPressed()
     {
-        SceneManager.LoadScene(1, LoadSceneMode.Single);
+        FadeInOut.sce = 1;
+        if (FadeInOut.sceneStarting == false)
+        {
+            FadeInOut.sceneEnd = true;
+        }
     }
 
     public void PlayPressed2()
     {
-        SceneManager.LoadScene("Level2", LoadSceneMode.Single);
+        SceneManager.LoadScene("Level2");
     }
 
     public void ExitPressed()
