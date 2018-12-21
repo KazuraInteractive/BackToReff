@@ -29,6 +29,8 @@ public class Character : Unit
     private bool groundCheck = false;
     public int directionInput;
     public bool facingRight = true;
+    [SerializeField]
+    public Image jum;
 
     public LevelManager levelManager;
 
@@ -55,6 +57,12 @@ public class Character : Unit
 
     void Update()
     {
+        jum.color = Color.Lerp(jum.color, Color.clear, 0.4f * Time.deltaTime);
+
+        if (jum.color.a <= 0.01f)
+        {
+            jum.color = Color.clear;
+        }
 
         if ((directionInput < 0) && (facingRight))
         {
@@ -71,36 +79,34 @@ public class Character : Unit
 
     public void Run(int dir)
     {
-        directionInput = dir;
+        directionInput = dir;                                        //Определение направления движения и движение
     }
 
     public void Jump(bool isJump)
     {
-        isJump = groundCheck;
+        isJump = groundCheck;                                        //Определение нахождения на земле
 
-        if (groundCheck)
+        if (groundCheck)                                             //Если персонаж на земле
         {
-            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpPower);
-            jump.Play();
+            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpPower); //Применить к объекту персонажа толчок вверх
+            jump.Play();                                             //И проиграть звук прыжка
         }
     }
 
     public override void ReceiveDamage()
     {
-        Lives--;
-        uro.Play();
+        Lives--;                                                   //Вычисление одной жизни
+        uro.Play();                                                //Проигрывание музыки получения урона
 
-        rb2d.velocity = Vector3.zero;
-        rb2d.AddForce(transform.up * 10.0F, ForceMode2D.Impulse);
+        rb2d.velocity = Vector3.zero;                              //Определение объекта, отвечающего за физику
+        rb2d.AddForce(transform.up * 10.0F, ForceMode2D.Impulse);  //Эффект отброса объекта персонажа в сторону
 
-        Debug.Log(lives);
-
-        if (lives <= 0)
+        if (lives <= 0)                                            //Если жизней меньше, либо равно нулю
         {
-            death.Play();
-            levelManager.RespawnPlayer();
-            lives = 3;
-            livesBar.Refresh();
+            death.Play();                                          //Проигрывание звука смерти
+            levelManager.RespawnPlayer();                          //Респавн персонажа к последней точке
+            lives = 3;                                             //Возврат количества жизней к изначальному значению
+            livesBar.Refresh();                                    //Обновление объекта, показывающего количество жизней на экране
         }
     }
 

@@ -16,7 +16,7 @@ public class Leg : Monster
     public GameObject p;
 
     private Vector3 direction;
-    int v1 = 130;
+    int v1 = 10;
 
     protected override void Start()
     {
@@ -33,7 +33,7 @@ public class Leg : Monster
             if (puk == true)
             {
                 gameObject.transform.position = new Vector3(originalPos.x, gameObject.transform.position.y);
-                v1 = 130;
+                v1 = 10;
                 puk = false;
             }
         }
@@ -64,7 +64,14 @@ public class Leg : Monster
 
         Collider2D[] colliders = Physics2D.OverlapCircleAll(pik, 0.1F);
 
-        if (colliders.Length > 0 && colliders.All(y => !y.GetComponent<Character>())) { puk = true; gameObject.transform.position = originalPos; }
+        if (colliders.Length > 0 && colliders.All(y => !y.GetComponent<Character>()))
+        {
+            puk = true;
+            direction *= -1.0F;
+        }
+
+        if(gameObject.transform.position.y >= originalPos.y)
+            direction *= -1.0F;
 
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
     }
