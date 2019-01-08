@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/YandexDisk/test.apk
+D:/YandexDisk/BackToReff.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/1Cutscene.unity
@@ -65,6 +65,8 @@ d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.Bird
 89f516e741620a1ceff1d12bd9692df2 Assembly-CSharp.dll:.Settings
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 a19fd6e0cdee9dfca6e97751938038cb Assembly-CSharp.dll:.Character
+486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 da2091a04d360891450faf16cdf621f1 UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -176,6 +178,7 @@ e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTool
 d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.drop
 fc0fb6d9bfd485e2880ba1fc9425cb75 Assembly-CSharp.dll:.Checkpoint
 591faf757f9cac6d6ed6cd9785a73ad8 Assembly-CSharp.dll:.ChangeLevel
+07097b337f0d93ab54ab8f6cd72a20dd Assembly-CSharp.dll:.UnityAdsScript
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule

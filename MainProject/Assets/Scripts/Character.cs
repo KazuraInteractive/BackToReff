@@ -1,13 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.Advertisements;
 
 public class Character : Unit
 {
-    [SerializeField]
     public int lives = 3;
-
-    [SerializeField]
     public AudioSource uro, jump, death;
 
     public int Lives
@@ -103,6 +101,8 @@ public class Character : Unit
 
         if (lives <= 0)                                            //Если жизней меньше, либо равно нулю
         {
+            Advertisement.Show();
+
             death.Play();                                          //Проигрывание звука смерти
             levelManager.RespawnPlayer();                          //Респавн персонажа к последней точке
             lives = 3;                                             //Возврат количества жизней к изначальному значению
