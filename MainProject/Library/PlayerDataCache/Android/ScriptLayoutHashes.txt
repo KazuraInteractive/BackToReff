@@ -62,7 +62,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.Bird
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Monster
-89f516e741620a1ceff1d12bd9692df2 Assembly-CSharp.dll:.Settings
+d5009a75695202ea8534a99a1694980b Assembly-CSharp.dll:.Settings
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 a19fd6e0cdee9dfca6e97751938038cb Assembly-CSharp.dll:.Character
 486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor

@@ -6,9 +6,19 @@ using UnityEngine.Audio;
 public class Settings : MonoBehaviour {
 
     public AudioMixer am;
+    public bool offon;
 
-    public void AudioVolume(float sliderValue)
+    public void AudioVolume()
     {
-        am.SetFloat("masterVolume", sliderValue);
+        if (offon == true)
+        {
+            am.SetFloat("masterVolume", -80f);
+            offon = false;
+        }
+        else if (offon == false)
+        {
+            am.SetFloat("masterVolume", 0f);
+            offon = true;
+        }
     }
 }

@@ -168,3 +168,4 @@ D:\Документы\Учеба\Технологии программирова
 D:\Документы\Учеба\Технологии программирования\Курсовая\BackToReff\MainProject\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\Документы\Учеба\Технологии программирования\Курсовая\BackToReff\MainProject\obj\Debug\Assembly-CSharp.dll
 D:\Документы\Учеба\Технологии программирования\Курсовая\BackToReff\MainProject\obj\Debug\Assembly-CSharp.pdb
+D:\Документы\Учеба\Технологии программирования\Курсовая\BackToReff\MainProject\Temp\bin\Debug\UnityEngine.Advertisements.dll
