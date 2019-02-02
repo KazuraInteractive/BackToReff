@@ -6,6 +6,22 @@ using UnityEngine.UI;
 
 public class MenuControls : MonoBehaviour {
 
+    public SaveLoad saveLoad;
+    public Button load;
+
+    public void Update()
+    {
+        saveLoad.LoadPlayerPrefs();
+        if (saveLoad.loadLvl < 4)
+        {
+            load.gameObject.SetActive(false);
+        }
+        else
+        {
+            load.gameObject.SetActive(true);
+        }
+    }
+
     public void PlayPressed()
     {
         FadeInOut.sce = 1;
@@ -15,9 +31,10 @@ public class MenuControls : MonoBehaviour {
         }
     }
 
-    public void PlayPressed2()
+    public void Continue()
     {
-        SceneManager.LoadScene("Level2");
+        saveLoad.LoadPlayerPrefs();
+        SceneManager.LoadScene(saveLoad.loadLvl);
     }
 
     public void ExitPressed()

@@ -6,7 +6,7 @@ using UnityEngine.Advertisements;
 public class Character : Unit
 {
     public int lives = 3;
-    public AudioSource uro, jump, death;
+    public AudioSource uro, death;
 
     public int Lives
     {
@@ -87,7 +87,6 @@ public class Character : Unit
         if (groundCheck)                                             //Если персонаж на земле
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpPower); //Применить к объекту персонажа толчок вверх
-            jump.Play();                                             //И проиграть звук прыжка
         }
     }
 
